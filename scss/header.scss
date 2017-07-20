@@ -28,22 +28,22 @@ header {
 	height: 50px;		
 	}
 	& nav a{
-	color: #F9F9F9;
+	color: $white;
 	font-size: 30px;
 	font-family: rationale;
 	border-bottom: 1px solid transparent;
 	}
 	& nav a:hover {
-	border-bottom: 1px solid #1CBAFF;
-	color: #1CBAFF;
-	text-shadow: 0 0 10px #1CBAFF;
+	border-bottom: 1px solid $cyan;
+	color: $cyan;
+	text-shadow: 0 0 10px $cyan;
 	transition: 200ms;
 	animation: glow 1s ease infinite;
 	}
 }
 
 .active {
-	color: #1CBAFF;
+	color: $cyan;
 }
 
 #splash {
@@ -56,14 +56,14 @@ header {
 	float: left;		
 	}
 	& h1{
-	color: #1CBAFF;
+	color: $cyan;
 	font-family: monterey, arial, "times new roman";
 	font-size: 100px;
 	font-weight: bold;
 	margin: 0;
 	}
 	& h2{
-	color: #F9F9F9;
+	color: $white;
 	font-size: 50px;
 	padding-left: 120px;
 	padding-top: 20px;
@@ -75,8 +75,8 @@ header {
 	bottom: -50px;
 	right: 450px;
 	background: transparent;
-	color: #1CBAFF;
-	border: 1px solid #1CBAFF;
+	color: $cyan;
+	border: 1px solid $cyan;
 	padding: 10px 20px;
 	font-family: arial;
 	font-size: 20px;
@@ -98,7 +98,7 @@ header {
 	padding-left: 20px;		
 	}
 	& i:hover{
-	color: #1CBAFF;
+	color: $cyan;
 	transition: 200ms;
 	}
 }
