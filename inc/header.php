@@ -1,6 +1,4 @@
-<body>
-	<div id="wrapper">
-		<header class="row">
+<header class="row">
 			<div class="col-md-6">
 				<a href="home.php">
 

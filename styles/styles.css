@@ -127,10 +127,16 @@ header nav a:hover {
   color: #1CBAFF;
 }
 
+#splash-body {
+  background-image: url(../images/bg-face.jpg);
+  background-size: cover;
+}
+
 #splash {
   position: absolute;
   top: 45%;
-  width: 1300px;
+  padding-left: 10%;
+  width: auto;
 }
 #splash #logo {
   height: 250px;
@@ -147,15 +153,15 @@ header nav a:hover {
 #splash h2 {
   color: #F9F9F9;
   font-size: 50px;
-  padding-left: 120px;
+  padding-left: 95px;
   padding-top: 20px;
   font-family: arial;
   margin: 0;
 }
 #splash a {
   position: absolute;
-  bottom: -50px;
-  right: 450px;
+  bottom: -70px;
+  right: 0;
   background: transparent;
   color: #1CBAFF;
   border: 1px solid #1CBAFF;
@@ -185,11 +191,10 @@ header nav a:hover {
 }
 
 /********************************************
-    CONTENT
+    GENERAL
 *********************************************/
 body {
-  background-image: url(../images/bg-face.jpg);
-  background-size: cover;
+  background: linear-gradient(black, #000044);
   font-family: arial;
   color: #F9F9F9;
 }
@@ -199,35 +204,54 @@ body {
   height: 70vh;
 }
 
+/********************************************
+    HOME
+*********************************************/
 .home-texts {
-  position: absolute;
-  top: 45%;
-  left: 200px;
+  text-align: right;
   font-size: 50px;
   font-style: italic;
   font-family: federant;
+  line-height: 2.2;
 }
 
-#home-text {
+#home-text1 {
   animation: slideIn 2s ease-out;
-  top: 400px;
-  left: 200px;
 }
 
 #home-text2 {
   animation: slideIn 4s ease-out;
-  top: 500px;
-  left: 300px;
 }
 
 #home-text3 {
   animation: slideIn 6s ease-out;
-  top: 600px;
-  left: 400px;
+}
+
+#screens img {
+  height: 300px;
+}
+#screens #screen1 {
+  position: absolute;
+  top: 0;
+  animation: slideIn2 2s ease;
+}
+#screens #screen2 {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  height: 220px;
+  animation: slideIn2 4s ease;
+}
+#screens #screen3 {
+  position: absolute;
+  top: 250px;
+  left: 220px;
+  height: 120px;
+  animation: slideIn2 6s ease;
 }
 
 /********************************************
-    Animations
+    ANIMATIONS
 *********************************************/
 @keyframes reveal {
   0% {
@@ -270,8 +294,26 @@ body {
     opacity: 1;
   }
 }
+@keyframes slideIn2 {
+  0% {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /********************************************
-    Media Queries
+    MEDIA QUERIES
 *********************************************/
+@media screen and (max-width: 1400px) {
+  header h1 {
+    font-size: 70px;
+    padding-top: 20px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
