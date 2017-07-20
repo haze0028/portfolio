@@ -1,0 +1,77 @@
+/********************************************
+    CSS RESET
+*********************************************/
+@import "cssReset";
+
+/********************************************
+    COLOURS VARIABLES
+*********************************************/
+@import "var";
+
+/********************************************
+    TEXT
+*********************************************/
+@import "text";
+
+/********************************************
+    HEADER/FOOTER
+*********************************************/
+@import "header";
+
+/********************************************
+    CONTENT
+*********************************************/
+
+body {
+	background-image: url(../images/bg-face.jpg);
+	background-size: cover;
+	font-family: arial;
+	color: $white;
+}
+
+#content {
+	margin-top: 85px;
+	height: 70vh;
+}
+
+.home-texts {
+	position: absolute;
+	top: 45%;
+	left: 200px;
+	font-size: 50px;
+	font-style: italic;
+	font-family: federant
+}
+
+#home-text {
+	animation: slideIn 2s ease-out;
+	top: 400px;
+	left: 200px;
+}
+
+#home-text2 {
+	animation: slideIn 4s ease-out;
+	top: 500px;
+	left: 300px;
+}
+
+#home-text3 {
+	animation: slideIn 6s ease-out;
+	top: 600px;
+	left: 400px;
+}
+
+
+/********************************************
+    Animations
+*********************************************/
+@import "anim";
+
+
+/********************************************
+    Media Queries
+*********************************************/
+
+@media screen and (max-width:960px) {}
+
+@media screen and (max-width:640px) {}

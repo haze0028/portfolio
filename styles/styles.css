@@ -1,0 +1,277 @@
+/********************************************
+    CSS RESET
+*********************************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/********************************************
+    COLOURS VARIABLES
+*********************************************/
+/********************************************
+    TEXT
+*********************************************/
+@font-face {
+  font-family: monterey;
+  src: url(../fonts/MontereyFLF.ttf);
+}
+h1 {
+  color: #1CBAFF;
+  font-family: monterey, arial, "times new roman";
+  font-size: 100px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #F9F9F9;
+  font-size: 40px;
+  padding-left: 150px;
+  padding-top: 10px;
+  font-family: arial;
+}
+
+/********************************************
+    HEADER/FOOTER
+*********************************************/
+header {
+  height: 186px;
+  padding: 20px;
+}
+header.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+header #logo {
+  height: 250px;
+  margin-right: -50px;
+  padding: 10px;
+  float: left;
+}
+header #circuits2 polyline, header #circuits2 circle {
+  animation: glogo 2s ease infinite;
+}
+header a:hover {
+  text-decoration: none;
+}
+header nav.col-md-6 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  height: 50px;
+}
+header nav a {
+  color: #F9F9F9;
+  font-size: 30px;
+  font-family: rationale;
+  border-bottom: 1px solid transparent;
+}
+header nav a:hover {
+  border-bottom: 1px solid #1CBAFF;
+  color: #1CBAFF;
+  text-shadow: 0 0 10px #1CBAFF;
+  transition: 200ms;
+  animation: glow 1s ease infinite;
+}
+
+.active {
+  color: #1CBAFF;
+}
+
+#splash {
+  position: absolute;
+  top: 45%;
+  width: 1300px;
+}
+#splash #logo {
+  height: 250px;
+  margin: 0 20px;
+  float: left;
+}
+#splash h1 {
+  color: #1CBAFF;
+  font-family: monterey, arial, "times new roman";
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0;
+}
+#splash h2 {
+  color: #F9F9F9;
+  font-size: 50px;
+  padding-left: 120px;
+  padding-top: 20px;
+  font-family: arial;
+  margin: 0;
+}
+#splash a {
+  position: absolute;
+  bottom: -50px;
+  right: 450px;
+  background: transparent;
+  color: #1CBAFF;
+  border: 1px solid #1CBAFF;
+  padding: 10px 20px;
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  animation: reveal 5s ease-out;
+}
+#splash a:hover {
+  background: rgba(28, 186, 255, 0.2);
+  transition: 200ms;
+}
+
+#social {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 110px;
+}
+#social i {
+  font-size: 20px;
+  padding-left: 20px;
+}
+#social i:hover {
+  color: #1CBAFF;
+  transition: 200ms;
+}
+
+/********************************************
+    CONTENT
+*********************************************/
+body {
+  background-image: url(../images/bg-face.jpg);
+  background-size: cover;
+  font-family: arial;
+  color: #F9F9F9;
+}
+
+#content {
+  margin-top: 85px;
+  height: 70vh;
+}
+
+.home-texts {
+  position: absolute;
+  top: 45%;
+  left: 200px;
+  font-size: 50px;
+  font-style: italic;
+  font-family: federant;
+}
+
+#home-text {
+  animation: slideIn 2s ease-out;
+  top: 400px;
+  left: 200px;
+}
+
+#home-text2 {
+  animation: slideIn 4s ease-out;
+  top: 500px;
+  left: 300px;
+}
+
+#home-text3 {
+  animation: slideIn 6s ease-out;
+  top: 600px;
+  left: 400px;
+}
+
+/********************************************
+    Animations
+*********************************************/
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 0px #1CBAFF;
+  }
+  50% {
+    text-shadow: 0px 0px 20px #1CBAFF;
+  }
+  100% {
+    text-shadow: 0px 0px 0px #1CBAFF;
+  }
+}
+@keyframes glogo {
+  50% {
+    stroke: #1CBAFF;
+    stroke-width: 20px;
+    box-shadow: 0 0 10px 50px white;
+  }
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/********************************************
+    Media Queries
+*********************************************/
+
+/*# sourceMappingURL=styles.css.map */
