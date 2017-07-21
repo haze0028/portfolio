@@ -17,81 +17,36 @@ header {
 			animation: glogo 2s ease infinite;
 		}
 	}
-	& a:hover {
+	& a:hover,
+	& a:focus,
+	& a:active {
 		text-decoration: none;
 	}
-	& nav.col-md-6 {
-		display: flex;
-		justify-content: space-around;
-		margin-top: 50px;
-		height: 50px;
-	}
-	& nav a {
-		color: $white;
-		font-size: 30px;
-		font-family: rationale;
-		border-bottom: 1px solid transparent;
-	}
-	& nav a:hover {
-		border-bottom: 1px solid $cyan;
-		color: $cyan;
-		text-shadow: 0 0 10px $cyan;
-		transition: 200ms;
-		animation: glow 1s ease infinite;
+	& nav {
+		&.col-md-6 {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 50px;
+			height: 50px;
+		}
+		& a {
+			color: $white;
+			font-size: 30px;
+			font-family: rationale;
+			border-bottom: 1px solid transparent;
+		}
+		& a:hover {
+			border-bottom: 1px solid $cyan;
+			color: $cyan;
+			text-shadow: 0 0 5px $cyan;
+			transition: 350ms;
+//			animation: glow 1s ease infinite;
+		}
 	}
 }
 
 .active {
 	color: $cyan;
-}
-
-#splash-body {
-	background-image: url(../images/bg-face.jpg);
-	background-size: cover;
-}
-
-#splash {
-	position: absolute;
-	top: 45%;
-	padding-left: 10%;
-	width: auto;
-	& #logo {
-		height: 250px;
-		margin: 0 20px;
-		float: left;
-	}
-	& h1 {
-		color: $cyan;
-		font-family: monterey, arial, "times new roman";
-		font-size: 100px;
-		font-weight: bold;
-		margin: 0;
-	}
-	& h2 {
-		color: $white;
-		font-size: 50px;
-		padding-left: 95px;
-		padding-top: 20px;
-		font-family: arial;
-		margin: 0;
-	}
-	& a {
-		position: absolute;
-		bottom: -70px;
-		right: 0;
-		background: transparent;
-		color: $cyan;
-		border: 1px solid $cyan;
-		padding: 10px 20px;
-		font-family: arial;
-		font-size: 20px;
-		text-decoration: none;
-		animation: reveal 5s ease-out;
-	}
-	& a:hover {
-		background: rgba(28, 186, 255, 0.2);
-		transition: 200ms;
-	}
 }
 
 #social {

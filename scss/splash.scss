@@ -1,0 +1,48 @@
+#splash-body {
+	background-image: url(../images/bg-faceV2.jpg);
+	background-size: cover;
+}
+
+#splash {
+	position: absolute;
+	top: 45%;
+	padding-left: 10%;
+	width: auto;
+	& #logo {
+		height: 250px;
+		margin: 0 20px;
+		float: left;
+	}
+	& h1 {
+		color: $cyan;
+		font-family: monterey, arial, "times new roman";
+		font-size: 100px;
+		font-weight: bold;
+		margin: 0;
+	}
+	& h2 {
+		color: $white;
+		font-size: 50px;
+		padding-left: 95px;
+		padding-top: 20px;
+		font-family: arial;
+		margin: 0;
+	}
+	& a {
+		position: absolute;
+		bottom: -70px;
+		right: 0;
+		background: transparent;
+		color: $cyan;
+		border: 1px solid $cyan;
+		padding: 10px 20px;
+		font-family: arial;
+		font-size: 20px;
+		text-decoration: none;
+		animation: reveal 5s ease-out;
+	}
+	& a:hover {
+		background: rgba(28, 186, 255, 0.2);
+		transition: 200ms;
+	}
+}

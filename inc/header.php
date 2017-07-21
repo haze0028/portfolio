@@ -19,9 +19,13 @@
 				</div>
 			</div>
 			<nav class="col-md-6">
-				<a href="home.php" class="active">Home</a>
-				<a href="about.php">About</a>
-				<a href="work.php">Work</a>
-				<a href="contact.php">Contact</a>
+				<a <?php if (strpos($_SERVER['PHP_SELF'], 'home.php')) echo 'class="active"';?>
+				href="home.php">Home</a>
+				<a <?php if (strpos($_SERVER['PHP_SELF'], 'about.php')) echo 'class="active"';?>
+				href="about.php">About</a>
+				<a <?php if (strpos($_SERVER['PHP_SELF'], 'work.php')) echo 'class="active"';?>
+				href="work.php">Work</a>
+				<a <?php if (strpos($_SERVER['PHP_SELF'], 'contact.php')) echo 'class="active"';?>
+				href="contact.php">Contact</a>
 			</nav>
 		</header>
