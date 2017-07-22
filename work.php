@@ -3,8 +3,11 @@
 	<body>
 		<div id="wrapper">
 			<?php include "inc/header.php"; ?>
-				<div id="overlay-bg"></div>
-				<div id="overlay-info"></div>
+				<div id="overlay-bg">
+					<div id="overlay-info">
+						
+					</div>
+				</div>
 				<div id="content">
 					<p id="pdf-portfolio"><a href="pdf/greg-hazelton-portfolio.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
  Portfolio PDF Download</a></p>

@@ -286,6 +286,7 @@ img {
 
 #screens img {
   height: 300px;
+  width: auto;
 }
 #screens #screen1 {
   position: absolute;

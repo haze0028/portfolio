@@ -19,9 +19,9 @@
 						</div>
 
 						<div id="screens" class="col-md-6">
-							<img src="images/monitor-155158_1280.png" alt="monitor" id="screen1">
-							<img src="images/ipad-147691.png" alt="tablet" id="screen2">
-							<img src="images/phone.png" alt="smartphone" id="screen3">
+							<img src="images/monitor2.png" alt="monitor" id="screen1">
+							<img src="images/ipad2.png" alt="tablet" id="screen2">
+							<img src="images/phone2.png" alt="smartphone" id="screen3">
 						</div>
 					</div>
 				</div>
