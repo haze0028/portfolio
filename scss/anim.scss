@@ -49,7 +49,10 @@
 		opacity: 0;
 		transform: translateX(500px);
 	}
-	30% {
+	50%{
+		opacity: 0;
+	}
+	100% {
 		opacity: 1;
 	}
 }

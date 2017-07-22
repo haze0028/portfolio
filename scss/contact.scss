@@ -1,0 +1,65 @@
+#contact-page{
+	background:black;
+	position:absolute;
+	top:40%;
+	width:100%;
+	padding:50px;
+	& hr{
+		border:1px solid grey;
+	}
+	& .deets:first-child{
+		height:auto;
+	}
+	& .deets{
+		width:60%;
+		margin:0 auto;
+		height:40px;
+		&#deets-phone-mobile{
+			display:none;
+		}
+	}
+	& i {
+		float:left;
+		font-size:30px;
+		width:50px;
+		text-align: center;
+	}
+	& p {
+		line-height: 0.8;
+	}
+}
+
+form{
+	width:50%;
+	max-width: 800px;
+	margin:0 auto;
+	padding:50px;
+	background:black;
+	border-radius:10px;
+	& label, & input, & textarea{
+		width:40%;
+		margin-top:10px;
+		margin-right:2%;
+	}
+	& #subject{
+		margin-top:-100px; 
+	}
+	& input:focus, & textarea:focus{
+		box-shadow: 0 0 10px $cyan;
+	}
+	& textarea::placeholder{
+		color:#9b9b9b;
+	}
+	& button{
+		background-color:transparent;
+		color: $cyan;
+		margin-top:10px;
+		padding:10px;
+		border-color: $cyan;
+		&:hover{
+			cursor: pointer;
+			background-color: rgba(0, 255, 255, 0.14);
+			transition: 300ms;
+		}
+	}
+}

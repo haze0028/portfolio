@@ -6,6 +6,7 @@
 			<h1>Greg Hazelton</h1>
 			<h2>[ Web / UX Developer ]</h2>			
 			<a href="home.php">Investigate...</a>
+			<img src="images/selfie.png" alt="Background face edited">
 		</div>
 
 	</div>

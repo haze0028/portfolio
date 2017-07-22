@@ -1,6 +1,5 @@
 #splash-body {
-	background-image: url(../images/bg-faceV2.jpg);
-	background-size: cover;
+	background-color:black;
 }
 
 #splash {
@@ -44,5 +43,11 @@
 	& a:hover {
 		background: rgba(28, 186, 255, 0.2);
 		transition: 200ms;
+	}
+	& img{
+		position:fixed;
+		right:5%;
+		top:5%;
+		width:30%;
 	}
 }

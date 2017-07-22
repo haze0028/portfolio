@@ -16,6 +16,11 @@
 </a>
 					<a href="https://plus.google.com/104382084165474082046" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i>
 </a>
+			<a href="https://github.com/haze0028" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>
+
+</a>
+			
+
 				</div>
 			</div>
 			<nav class="col-md-6">

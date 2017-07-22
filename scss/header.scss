@@ -1,5 +1,5 @@
 header {
-	height: 186px;
+	height: 190px;
 	padding: 20px;
 	&.row {
 		margin-left: 0;
@@ -16,6 +16,9 @@ header {
 		& circle {
 			animation: glogo 2s ease infinite;
 		}
+	}
+	& h1{
+		padding-top:30px;
 	}
 	& a:hover,
 	& a:focus,
@@ -52,9 +55,9 @@ header {
 #social {
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 110px;
+	padding-right: 140px;
 	& i {
-		font-size: 20px;
+		font-size: 26px;
 		padding-left: 20px;
 	}
 	& i:hover {
