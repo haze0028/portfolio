@@ -4,6 +4,8 @@
 		<div id="wrapper">
 			<?php include "inc/header.php"; ?>
 				<div id="content">
+						<p class="pdf"><a href="/pdf/greg-hazelton-resume.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+ View my full resumé</a></p>
 					<div class="container" id="about-page">
 						<h2>Bio</h2>
 						<div class="frame-round">
@@ -46,9 +48,7 @@
 						</div>
 						<hr id="prospects-hr">
 						<h3 class="h6">Prospects</h3>
-						<p>My goal in work, and life, is to love my work. The more I have learned about web development, the more I realize how much more there is to learn. It can be overwhelming and exciting to look ahead at all there is to know in the world of coding, but I look forward to learning as much as I can. I would thoroughly appreciate any job that not only allows me to build modern and creative websites, but one that encourages me to learn about new areas in my field.</p>
-						<p><a href="/pdf/greg-hazelton-resume.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
- View my full resumé</a></p>
+						<p>My career goal is to love my work. The more I have learned about web development, the more I realize how much more there is to learn. It can be overwhelming and exciting to look ahead at all there is to know in the world of coding, but I look forward to learning as much as I can. I would thoroughly appreciate any job that not only allows me to build modern and creative websites, but one that encourages me to learn about new areas in my field.</p>
 					</div>
 				</div>
 		</div>

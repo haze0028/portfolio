@@ -259,17 +259,22 @@ img {
   right: 5%;
   top: 5%;
   width: 30%;
+  height: auto;
 }
 
 /********************************************
     HOME
 *********************************************/
+#home-content {
+  margin-top: 150px;
+}
+
 .home-texts {
   text-align: right;
   font-size: 40px;
   font-style: italic;
   font-family: federant;
-  line-height: 2.2;
+  line-height: 2.4;
 }
 
 #home-text1 {
@@ -277,10 +282,12 @@ img {
 }
 
 #home-text2 {
+  margin-right: 60px;
   animation: slideIn 4s ease-out;
 }
 
 #home-text3 {
+  margin-right: -100px;
   animation: slideIn 6s ease-out;
 }
 
@@ -303,7 +310,7 @@ img {
 #screens #screen3 {
   position: absolute;
   top: 250px;
-  left: 200px;
+  left: 210px;
   height: 120px;
   animation: slideIn2 6s ease;
 }
@@ -318,8 +325,12 @@ img {
   -webkit-shape-outside: circle();
   shape-outside: circle();
 }
+#about-page .frame {
+  margin: 20px auto;
+}
 #about-page hr {
-  border-top: 1px solid #0F0F0F;
+  border-top: 1px solid grey;
+  margin: 20px auto;
 }
 #about-page #prospects-hr {
   clear: left;
@@ -346,19 +357,19 @@ img {
   display: none;
 }
 
-#pdf-portfolio {
+.pdf {
   font-size: 20px;
   text-align: right;
   padding-right: 5%;
 }
 
 section {
-  margin-top: 10%;
+  margin-top: 5%;
   background-color: transparent;
 }
 section h3 {
   padding: 20px auto;
-  background: #0F0F0F;
+  background: #030303;
   height: 200px;
   margin-bottom: -130px;
 }
@@ -412,7 +423,7 @@ section .work .thumbs:hover .overlay {
     WORK
 *********************************************/
 #contact-page {
-  background: black;
+  background: #030303;
   position: absolute;
   top: 40%;
   width: 100%;

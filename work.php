@@ -8,9 +8,11 @@
 						
 					</div>
 				</div>
+				
+				
 				<div id="content">
-					<p id="pdf-portfolio"><a href="pdf/greg-hazelton-portfolio.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
- Portfolio PDF Download</a></p>
+					<p class="pdf"><a href="pdf/greg-hazelton-portfolio.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+ View my full portfolio</a></p>
 					<section id="web">
 						<h3><i class="fa fa-code" aria-hidden="true"></i>
  Web Development</h3>

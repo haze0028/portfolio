@@ -6,8 +6,12 @@
   -webkit-shape-outside:circle();
   shape-outside:circle();
 	}
+	.frame{
+		margin:20px auto;
+	}
 	& hr{
-			border-top:1px solid $smoke;
+			border-top:1px solid grey;
+		margin:20px auto;
 	}
 	& #prospects-hr{
 		clear: left;
