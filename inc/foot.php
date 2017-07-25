@@ -4,9 +4,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-	<!--CUSTOM JS-->
-	<script src="scripts/script.js"></script>
-
 	<!--FONTAWESOME-->
 	<script src="https://use.fontawesome.com/54919c4c2e.js"></script>
 
@@ -14,6 +11,9 @@
 	<script src="http://use.edgefonts.net/federant:n4:all;rationale:n4:all.js"></script>
 	<script src="http://use.edgefonts.net/unifrakturcook:n7:all.js"></script>
 	<script src="http://use.edgefonts.net/rationale:n4:all.js"></script>
+	
+	<!--CUSTOM JS-->
+	<script src="scripts/overlay.js"></script>
 </body>
 
 </html>
