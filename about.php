@@ -4,7 +4,7 @@
 		<div id="wrapper">
 			<?php include "inc/header.php"; ?>
 				<div id="content">
-						<p class="pdf"><a href="/pdf/greg-hazelton-resume.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						<p class="pdf"><a href="/pdf/GregHazelton-WebResumeV3.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
  View my full resumé</a></p>
 					<div class="container" id="about-page">
 						<h2>Bio</h2>

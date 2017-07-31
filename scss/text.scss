@@ -3,58 +3,66 @@
 	src: url(../fonts/MontereyFLF.ttf);
 }
 
-h1 {
+h1,
+.h1 {
 	color: $cyan;
 	font-family: monterey, arial, "times new roman";
 	font-size: 100px;
 	font-weight: bold;
 }
 
-h2 {
+h2,
+.h2 {
 	color: $white;
 	font-size: 40px;
-	padding-top: 10px;
+	padding: 20px 0px 10px;
 	font-family: federant, arial;
 }
 
-h3{
+h3,
+.h3 {
 	color: $white;
 	font-size: 40px;
-	padding-left: 150px;
-	padding-top: 10px;
+	padding: 20px 0px 10px;
 	font-family: federant, arial;
 }
 
-h4{
-	color:$white;
+h4,
+.h4 {
+	color: $white;
 	font-family: federant;
-	font-size:35px;
-	padding:20px 0;
+	font-size: 35px;
+	padding: 20px 0px 10px;
 }
 
-h5{
-	font-size:28px;
+h5,
+.h5 {
+	font-size: 28px;
+	font-family: federant;
 	font-weight: bold;
+	padding: 20px 0px 10px;
 }
 
-h6, .h6{
-		padding-left:0;
-		font-family: arial;
-		color:$cyan;
-	font-size:20px;
+h6,
+.h6 {
+	padding-left: 0;
+	font-family: arial;
+	color: $cyan;
+	font-size: 20px;
+	padding: 20px 0px 10px;
 }
 
-p{
-	padding:12px 10px;
+p {
+	padding: 12px 10px;
 	line-height: 1.2;
-	font-size:18px;
+	font-size: 18px;
 }
 
-a{
-	color:$cyan;
+a {
+	color: $cyan;
 }
 
-ul{
+ul {
 	padding-left: 40px;
 	list-style-type: circle;
 	font-size: 18px

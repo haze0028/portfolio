@@ -65,45 +65,53 @@ table {
   font-family: monterey;
   src: url(../fonts/MontereyFLF.ttf);
 }
-h1 {
+h1,
+.h1 {
   color: #1CBAFF;
   font-family: monterey, arial, "times new roman";
   font-size: 100px;
   font-weight: bold;
 }
 
-h2 {
+h2,
+.h2 {
   color: #F9F9F9;
   font-size: 40px;
-  padding-top: 10px;
+  padding: 20px 0px 10px;
   font-family: federant, arial;
 }
 
-h3 {
+h3,
+.h3 {
   color: #F9F9F9;
   font-size: 40px;
-  padding-left: 150px;
-  padding-top: 10px;
+  padding: 20px 0px 10px;
   font-family: federant, arial;
 }
 
-h4 {
+h4,
+.h4 {
   color: #F9F9F9;
   font-family: federant;
   font-size: 35px;
-  padding: 20px 0;
+  padding: 20px 0px 10px;
 }
 
-h5 {
+h5,
+.h5 {
   font-size: 28px;
+  font-family: federant;
   font-weight: bold;
+  padding: 20px 0px 10px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   padding-left: 0;
   font-family: arial;
   color: #1CBAFF;
   font-size: 20px;
+  padding: 20px 0px 10px;
 }
 
 p {
@@ -189,14 +197,14 @@ header nav a:hover {
     GENERAL
 *********************************************/
 body {
-  background: linear-gradient(black, #000044);
+  background: linear-gradient(black, #000038);
   font-family: arial;
   color: #F9F9F9;
 }
 
 #content {
   margin-top: 70px;
-  min-height: calc(100vh/*viewport*/ - 70px/*content*/ - 190px/*header*/);
+  min-height: calc(100vh/*viewport*/ - 70px/*content*/ - 190px/*header*/ - 80px);
 }
 
 img {
@@ -237,6 +245,10 @@ img {
   font-family: arial;
   margin: 0;
 }
+#splash h2.h6 {
+  font-size: 20px;
+  text-align: right;
+}
 #splash a {
   position: absolute;
   bottom: -70px;
@@ -256,10 +268,10 @@ img {
 }
 #splash img {
   position: fixed;
-  right: 5%;
+  right: 15%;
   top: 5%;
-  width: 30%;
-  height: auto;
+  height: 90vh;
+  width: auto;
 }
 
 /********************************************
@@ -347,14 +359,68 @@ img {
 /********************************************
     WORK
 *********************************************/
-#overlay-bg {
-  background-color: rgba(0, 0, 0, 0.76);
+.overlay-bg {
+  background-color: rgba(0, 2, 28, 0.85);
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: 100;
-  display: none;
+  display: block;
+}
+.overlay-bg .overlay-info {
+  position: relative;
+  height: 80%;
+  margin-top: 5%;
+  padding-top: 100px;
+  background-color: #030303;
+}
+.overlay-bg .overlay-info .h4 {
+  color: #1CBAFF;
+}
+.overlay-bg .overlay-info .scrolls {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  font-size: 40px;
+}
+.overlay-bg .overlay-info img {
+  height: auto;
+}
+.overlay-bg .overlay-info .psd-covers {
+  position: relative;
+  margin-top: -100px;
+  width: 100%;
+  height: auto;
+}
+.overlay-bg .overlay-info .screen-monitor {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 100px;
+  width: 700px;
+}
+.overlay-bg .overlay-info .screen-tablet {
+  position: absolute;
+  z-index: 10;
+  top: 200px;
+  left: 0px;
+  width: 300px;
+}
+.overlay-bg .overlay-info .screen-mobile {
+  position: absolute;
+  z-index: 15;
+  top: 270px;
+  left: 610px;
+  width: 200px;
+}
+.overlay-bg .overlay-info .close-overlay {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #F9F9F9;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .pdf {

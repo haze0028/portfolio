@@ -23,14 +23,14 @@
 *********************************************/
 
 body {
-	background: linear-gradient(black,$blue);
+	background: linear-gradient(black,#000038);
 	font-family: arial;
 	color: $white;
 }
 
 #content {
 	margin-top: 70px;
-	min-height: calc(100vh/*viewport*/ - 70px/*content*/ - 190px/*header*/);
+	min-height: calc(100vh/*viewport*/ - 70px/*content*/ - 190px/*header*/ - 80px);
 }
 
 img{

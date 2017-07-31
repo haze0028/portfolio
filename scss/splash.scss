@@ -26,6 +26,10 @@
 		padding-top: 20px;
 		font-family: arial;
 		margin: 0;
+		&.h6{
+			font-size:20px;
+			text-align: right;
+		}
 	}
 	& a {
 		position: absolute;
@@ -46,9 +50,9 @@
 	}
 	& img{
 		position:fixed;
-		right:5%;
+		right:15%;
 		top:5%;
-		width:30%;
-		height:auto;
+		height:90vh;
+		width:auto;
 	}
 }
