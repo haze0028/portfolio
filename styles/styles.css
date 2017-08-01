@@ -366,7 +366,7 @@ img {
   width: 100%;
   height: 100vh;
   z-index: 100;
-  display: block;
+  display: none;
 }
 .overlay-bg .overlay-info {
   position: relative;
@@ -456,13 +456,16 @@ section .work .thumbs img {
   height: 100%;
   width: 100%;
 }
-section .work .thumbs .overlay {
+section .work .thumbs a {
+  color: #F9F9F9;
+}
+section .work .thumbs .thumb-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -470,7 +473,7 @@ section .work .thumbs .overlay {
   transition: .5s ease;
   cursor: pointer;
 }
-section .work .thumbs .overlay p {
+section .work .thumbs .thumb-overlay p {
   position: absolute;
   top: 40%;
   width: 100%;
@@ -481,7 +484,7 @@ section .work .thumbs:hover img {
   transform: scale(1.2);
   transition: 300ms;
 }
-section .work .thumbs:hover .overlay {
+section .work .thumbs:hover .thumb-overlay {
   opacity: 1;
 }
 
