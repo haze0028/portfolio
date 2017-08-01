@@ -13,7 +13,10 @@
 	& .deets{
 		width:60%;
 		margin:0 auto;
-		height:40px;
+		height:40px;		
+		& h5{
+				padding:0;
+			}
 		&#deets-phone-mobile{
 			display:none;
 		}

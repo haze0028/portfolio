@@ -14,11 +14,6 @@
 							<i class="fa fa-user-circle" aria-hidden="true"></i>
 							<h5>Greg Hazelton</h5>
 						</div>
-						<div class="deets">
-						<i class="fa fa-map-marker" aria-hidden="true">
-						</i>
-							<p>Ottawa, Ontario, Canada</p>
-						</div>
 						<div class="deets" id="deets-phone-desktop">
 							<i class="fa fa-mobile" aria-hidden="true"></i>
 							<p>613-797-6029</p>

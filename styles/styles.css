@@ -509,6 +509,9 @@ section .work .thumbs:hover .thumb-overlay {
   margin: 0 auto;
   height: 40px;
 }
+#contact-page .deets h5 {
+  padding: 0;
+}
 #contact-page .deets#deets-phone-mobile {
   display: none;
 }
