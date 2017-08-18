@@ -1,4 +1,5 @@
 header {
+	text-align: right;
 	height: 190px;
 	padding: 20px;
 	&.row {
@@ -26,12 +27,10 @@ header {
 		text-decoration: none;
 	}
 	& nav {
-		&.col-md-6 {
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-between;
 			margin-top: 50px;
 			height: 50px;
-		}
 		& a {
 			color: $white;
 			font-size: 30px;
@@ -55,7 +54,6 @@ header {
 #social {
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 140px;
 	& i {
 		font-size: 26px;
 		padding-left: 20px;

@@ -134,6 +134,7 @@ ul {
     HEADER/FOOTER
 *********************************************/
 header {
+  text-align: right;
   height: 190px;
   padding: 20px;
 }
@@ -156,9 +157,9 @@ header h1 {
 header a:hover, header a:focus, header a:active {
   text-decoration: none;
 }
-header nav.col-md-6 {
+header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
   height: 50px;
 }
@@ -182,7 +183,6 @@ header nav a:hover {
 #social {
   display: flex;
   justify-content: flex-end;
-  padding-right: 140px;
 }
 #social i {
   font-size: 26px;
@@ -434,7 +434,7 @@ section {
   background-color: transparent;
 }
 section h3 {
-  padding: 20px auto;
+  padding-left: 20px;
   background: #030303;
   height: 200px;
   margin-bottom: -130px;
@@ -486,6 +486,21 @@ section .work .thumbs:hover img {
 }
 section .work .thumbs:hover .thumb-overlay {
   opacity: 1;
+}
+
+#details-page {
+  background-color: black;
+}
+#details-page #details-frame {
+  background-color: blue;
+  width: 80%;
+  margin: 100px auto;
+}
+#details-page #details-frame img {
+  width: 100%;
+  max-width: 100%;
+  max-height: auto;
+  height: auto;
 }
 
 /********************************************
@@ -616,8 +631,5 @@ form button:hover {
     opacity: 1;
   }
 }
-/********************************************
-    MEDIA QUERIES
-*********************************************/
 
 /*# sourceMappingURL=styles.css.map */

@@ -14,5 +14,18 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<!--CUSTOM STYLES-->
-	<link href="styles/styles.css" rel="stylesheet">
+	<link href="../styles/styles.css" rel="stylesheet">
 </head>
+
+<body>
+	<div id="wrapper">
+		<div id="content">
+			<div id="details-page">
+				<div id="details-frame">
+					<img src="../images/photo/DSC_0077.jpg" alt="Forest trail" style="width:50%;" id="details-img">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<?php include "inc/foot.php"; ?>
