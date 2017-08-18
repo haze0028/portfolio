@@ -16,7 +16,7 @@
 				</div>
 
 				<div id="content">
-					<p class="pdf"><a href="pdf/greg-hazelton-portfolio.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+					<p class="pdf"><a href="pdf/greg-hazelton-portfolio.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
  View my full portfolio</a></p>
 					<section id="web">
 						<h3><i class="fa fa-code" aria-hidden="true"></i>
