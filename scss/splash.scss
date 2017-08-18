@@ -1,43 +1,35 @@
 #splash-body {
-	background-color:black;
+	background:black;
+	text-align: right;
+	& .container{
+		width:90%;
+	}
 }
 
 #splash {
-	position: absolute;
-	top: 45%;
-	padding-left: 10%;
-	width: auto;
-	& #logo {
-		height: 250px;
-		margin: 0 20px;
-		float: left;
-	}
+		padding-top: 100px;
 	& h1 {
 		color: $cyan;
 		font-family: monterey, arial, "times new roman";
 		font-size: 100px;
 		font-weight: bold;
-		margin: 0;
+		padding-top: 100px;
 	}
 	& h2 {
 		color: $white;
 		font-size: 50px;
-		padding-left: 95px;
-		padding-top: 20px;
 		font-family: arial;
-		margin: 0;
+		margin: 0 auto 20px;
 		&.h6{
 			font-size:20px;
 			text-align: right;
 		}
 	}
 	& a {
-		position: absolute;
-		bottom: -70px;
-		right: 0;
 		background: transparent;
 		color: $cyan;
 		border: 1px solid $cyan;
+		margin-top:20px;
 		padding: 10px 20px;
 		font-family: arial;
 		font-size: 20px;
@@ -49,10 +41,9 @@
 		transition: 200ms;
 	}
 	& img{
-		position:fixed;
-		right:15%;
-		top:5%;
-		height:90vh;
 		width:auto;
+		max-width: auto;
+		height:auto;
+		max-height: 80vh;
 	}
 }

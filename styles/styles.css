@@ -193,6 +193,15 @@ header nav a:hover {
   transition: 200ms;
 }
 
+@media screen and (max-width: 1400px) {
+  header h1 {
+    font-size: 70px;
+    padding-top: 20px;
+  }
+  header #logo {
+    height: 200px;
+  }
+}
 /********************************************
     GENERAL
 *********************************************/
@@ -216,46 +225,38 @@ img {
     SPLASH
 *********************************************/
 #splash-body {
-  background-color: black;
+  background: black;
+  text-align: right;
+}
+#splash-body .container {
+  width: 90%;
 }
 
 #splash {
-  position: absolute;
-  top: 45%;
-  padding-left: 10%;
-  width: auto;
-}
-#splash #logo {
-  height: 250px;
-  margin: 0 20px;
-  float: left;
+  padding-top: 100px;
 }
 #splash h1 {
   color: #1CBAFF;
   font-family: monterey, arial, "times new roman";
   font-size: 100px;
   font-weight: bold;
-  margin: 0;
+  padding-top: 100px;
 }
 #splash h2 {
   color: #F9F9F9;
   font-size: 50px;
-  padding-left: 95px;
-  padding-top: 20px;
   font-family: arial;
-  margin: 0;
+  margin: 0 auto 20px;
 }
 #splash h2.h6 {
   font-size: 20px;
   text-align: right;
 }
 #splash a {
-  position: absolute;
-  bottom: -70px;
-  right: 0;
   background: transparent;
   color: #1CBAFF;
   border: 1px solid #1CBAFF;
+  margin-top: 20px;
   padding: 10px 20px;
   font-family: arial;
   font-size: 20px;
@@ -267,11 +268,10 @@ img {
   transition: 200ms;
 }
 #splash img {
-  position: fixed;
-  right: 15%;
-  top: 5%;
-  height: 90vh;
   width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: 80vh;
 }
 
 /********************************************
@@ -619,14 +619,5 @@ form button:hover {
 /********************************************
     MEDIA QUERIES
 *********************************************/
-@media screen and (max-width: 1400px) {
-  header h1 {
-    font-size: 70px;
-    padding-top: 20px;
-  }
-  header #logo {
-    height: 200px;
-  }
-}
 
 /*# sourceMappingURL=styles.css.map */

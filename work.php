@@ -24,7 +24,7 @@
 						<div class="work">
 							<div class="thumbs">
 								<img src="images/form-site.jpg" alt="Form site thumbnail">
-								<a href="extras/garden/index.html">
+								<a href="https://haze0028.github.io/gardenForm/" target="_blank">
 								<div class="thumb-overlay">
 									<p>View Site</p>
 								</div>
@@ -32,7 +32,7 @@
 							</div>
 							<div class="thumbs">
 								<img src="images/trailmix-thumbV2.png" alt="Form site thumbnail">
-								<a href="extras/trailmix/index.html">
+								<a href="https://haze0028.github.io/trailmix/" target="_blank">
 								<div class="thumb-overlay">
 									<p>View Site</p>
 								</div>
@@ -40,7 +40,7 @@
 							</div>
 							<div class="thumbs">
 								<img src="images/gallery-thumbV2.png" alt="Form site thumbnail">
-								<a href="extras/gallery/index.html">
+								<a href="https://haze0028.github.io/gallery/" target="_blank">
 								<div class="thumb-overlay">
 									<p>View Site</p>
 								</div>
@@ -48,7 +48,7 @@
 							</div>
 							<div class="thumbs">
 								<img src="images/acme-thumbV2.png" alt="Form site thumbnail">
-								<a href="extras/acme/index.html">
+								<a href="https://haze0028.github.io/acme/" target="_blank">
 								<div class="thumb-overlay">
 									<p>View Site</p>
 								</div>

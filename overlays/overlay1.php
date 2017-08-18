@@ -1,3 +1,6 @@
+
+<!--THIS WILL EVENTUALLY BECOME A POPUP SCREEN FOR THE WORK PAGE, GIVING MORE DETAILS ABOUT EACH WORK PIECE-->
+
 <div class="offset-md-1 col-md-5 psd-screens">
 	<img src="images/screens/garden-life-monitor.png" alt="Garden Life form monitor view" class="screen-monitor">
 	<img src="images/screens/garden-life-tablet.png" alt="Garden Life form tablet view" class="screen-tablet">
