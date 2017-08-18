@@ -1,5 +1,5 @@
 <header class="row">
-	<div class="col-sm-5">
+	<div class="col-sm-6">
 		<a href="home.php">
 
 			<?php include "inc/logo.php"; ?>

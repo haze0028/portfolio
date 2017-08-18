@@ -62,37 +62,37 @@
  Graphic Design</h3>
 						<div class="work">
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details1.php">
 									<img src="images/thumbs/batman-thumb.jpg" alt="Batman kill count thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details2.php">
 									<img src="images/cleanUp.jpg" alt="Clean up thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details3.php">
 									<img src="images/hazelton_greg_020_composite.jpg" alt="Composite image thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details4.php">
 									<img src="images/hazelton_greg_AdPoster.jpg" alt="Ad poster thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
@@ -105,55 +105,55 @@
  Photography</h3>
 						<div class="work">
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details5.php">
 									<img src="images/thumbs/forest1-thumb.jpg" alt="Forest 1 thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details6.php">
 									<img src="images/thumbs/forest4-thumb.jpg" alt="Forest 4 thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details7.php">
 									<img src="images/thumbs/headphones1-thumb.jpg" alt="Headphones depth thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details8.php">
 									<img src="images/thumbs/nac1-thumb.jpg" alt="NAC 1 thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details9.php">
 									<img src="images/thumbs/glow2-thumb.jpg" alt="Glow thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>
 							</div>
 							<div class="thumbs">
-								<a href="details/details.php">
+								<a href="details/details10.php">
 									<img src="images/thumbs/glow1-thumb.jpg" alt="Glow depth thumbnail">
 									<div class="thumb-overlay">
-										<p>More Details <i class="fa fa-expand" aria-hidden="true"></i>
+										<p>Full size <i class="fa fa-expand" aria-hidden="true"></i>
 										</p>
 									</div>
 								</a>

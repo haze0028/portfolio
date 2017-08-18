@@ -87,7 +87,7 @@ section {
 			width: 24%;
 			margin: 0 1%;
 			overflow: hidden;
-			box-shadow: 0 4px 10px 2px black;
+			box-shadow: 0 4px 10px black;
 			animation: slideIn 1s ease;
 			& img {
 				height: 100%;
@@ -132,16 +132,12 @@ section {
 
 //DETAILS PAGE
 #details-page {
-	background-color: black;
-	& #details-frame {
-		background-color: blue;
-		width: 80%;
-		margin: 100px auto;
-		& img {
-			width: 100%;
-			max-width: 100%;
-			max-height: auto;
-			height: auto;
-		}
+	min-height: 100vh;
+	min-width: 100%;
+	background-color: white;
+	& .full-size {
+		width: 1500px;
+		height: auto;
+		margin: 0 auto;
 	}
 }
