@@ -193,13 +193,29 @@ header nav a:hover {
   transition: 200ms;
 }
 
-@media screen and (max-width: 1400px) {
+/************************
+	MEDIA QUERIES
+*************************/
+@media screen and (max-width: 1200px) {
   header h1 {
-    font-size: 70px;
+    font-size: 100px;
     padding-top: 20px;
   }
   header #logo {
     height: 200px;
+  }
+  header nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  header h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 640px) {
+  header h1 {
+    font-size: 40px;
   }
 }
 /********************************************
@@ -213,7 +229,7 @@ body {
 
 #content {
   margin-top: 70px;
-  min-height: calc(100vh/*viewport*/ - 70px/*content*/ - 190px/*header*/ - 80px);
+  min-height: calc(100vh/*viewport*/ - 70px/*margin-top*/ - 190px/*header*/ );
 }
 
 img {
@@ -262,6 +278,7 @@ img {
   font-size: 20px;
   text-decoration: none;
   animation: reveal 5s ease-out;
+  z-index: 10;
 }
 #splash a:hover {
   background: rgba(28, 186, 255, 0.2);
@@ -274,11 +291,41 @@ img {
   max-height: 80vh;
 }
 
+/************************
+	MEDIA QUERIES
+*************************/
+@media screen and (max-width: 1200px) {
+  #splash h1 {
+    font-size: 80px;
+  }
+  #splash h2 {
+    font-size: 40px;
+  }
+  #splash img {
+    width: 400px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  #splash h2 {
+    font-size: 30px;
+  }
+  #splash img {
+    position: fixed;
+    left: 12%;
+    top: 10%;
+    width: 80%;
+    height: auto;
+    opacity: 0.15;
+    z-index: -10;
+  }
+}
 /********************************************
     HOME
 *********************************************/
 #home-content {
-  margin-top: 150px;
+  margin-top: 180px;
+  min-height: calc(100vh/*viewport*/ - 180px/*margin-top*/ - 190px/*header*/ );
 }
 
 .home-texts {

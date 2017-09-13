@@ -4,7 +4,7 @@
 		<div id="wrapper">
 			<?php include "inc/header.php"; ?>
 
-				<div id="content" class="container">
+				<div class="container">
 					<div class="row" id="home-content">
 						<div id="home-texts" class="col-md-6">
 							<div id="home-text1">
