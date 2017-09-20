@@ -25,7 +25,7 @@
 		<h2 class="h6"><i class="fa fa-wrench" aria-hidden="true"></i> Under Maintenance</h2>
 	</div>
 
-	<div class="col-md-4 offset-md-1">
+	<div class="col-xl-4 offset-xl-1 col-sm-8 offset-sm-4">
 		<nav>
 			<a <?php if (strpos($_SERVER[ 'PHP_SELF'], 'home.php')) echo 'class="active"';?>
 				href="home.php">Home</a>
