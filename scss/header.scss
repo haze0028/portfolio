@@ -66,6 +66,7 @@
 				transform: scale(1.1);
 			}
 		}
+
 		/************************
 	MEDIA QUERIES
 *************************/
@@ -108,8 +109,8 @@
 				& #logo {
 					height: 160px;
 				}
-				& #nav-div{
-					padding:0;
+				& #nav-div {
+					padding: 0;
 				}
 				& nav {
 					& a {

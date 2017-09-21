@@ -27,4 +27,6 @@
 				</div>
 		</div>
 
+		<a href="work.php">Check out my work <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+
 		<?php include "inc/foot.php"; ?>
