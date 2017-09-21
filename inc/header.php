@@ -22,10 +22,10 @@
 
 </a>
 		</div>
-		<h2 class="h6"><i class="fa fa-wrench" aria-hidden="true"></i> Under Maintenance</h2>
+		<!--		<h2 class="h6"><i class="fa fa-wrench" aria-hidden="true"></i> Under Maintenance</h2>-->
 	</div>
 
-	<div class="col-xl-4 offset-xl-1 col-sm-8 offset-sm-4">
+	<div class="col-xl-4 offset-xl-1 col-sm-8 offset-sm-4" id="nav-div">
 		<nav>
 			<a <?php if (strpos($_SERVER[ 'PHP_SELF'], 'home.php')) echo 'class="active"';?>
 				href="home.php">Home</a>

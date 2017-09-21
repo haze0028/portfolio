@@ -1,108 +1,120 @@
-	header {
-		text-align: right;
-		height: 190px;
-		padding: 20px;
-		&.row {
-			margin-left: 0;
-			margin-right: 0;
-		}
-		& #logo {
-			height: 250px;
-			margin-right: -50px;
-			padding: 10px;
-			float: left;
-		}
-		& #circuits2 {
-			& polyline,
-			& circle {
-				animation: glogo 2s ease infinite;
-			}
-		}
-		& h1 {
-			padding-top: 30px;
-		}
-		& a:hover,
-		& a:focus,
-		& a:active {
-			text-decoration: none;
-		}
-		& nav {
-			display: flex;
-			justify-content: space-between;
-			margin-top: 50px;
-			height: 50px;
-			& a {
-				color: $white;
-				font-size: 30px;
-				font-family: rationale;
-				border-bottom: 1px solid transparent;
-			}
-			& a:hover {
-				border-bottom: 1px solid $cyan;
-				color: $cyan;
-				text-shadow: 0 0 5px $cyan;
-				transition: 350ms;
-				//			animation: glow 1s ease infinite;
-			}
-		}
-	}
-	
-	.active {
-		color: $cyan;
-	}
-	
-	#social {
-		display: flex;
-		justify-content: flex-end;
-		& i {
-			font-size: 30px;
-			padding-left: 20px;
-			color: $white;
-		}
-		& i:hover {
-			color: $cyan;
-			transition: 200ms;
-			transform-origin: center;
-			transform: scale(1.1);
-		}
-	}
-	/************************
-	MEDIA QUERIES
-*************************/
-	
-	@media screen and (max-width:1200px) {
 		header {
-			& h1 {
-				font-size: 70px;
-				padding-top: 20px;
+			text-align: right;
+			height: 190px;
+			padding: 20px;
+			&.row {
+				margin-left: 0;
+				margin-right: 0;
 			}
 			& #logo {
-				height: 200px;
+				height: 250px;
+				margin-right: -50px;
+				padding: 10px;
+				float: left;
+			}
+			& #circuits2 {
+				& polyline,
+				& circle {
+					animation: glogo 2s ease infinite;
+				}
+			}
+			& h1 {
+				padding-top: 30px;
+			}
+			& a:hover,
+			& a:focus,
+			& a:active {
+				text-decoration: none;
 			}
 			& nav {
-				margin-top: 0px;
+				display: flex;
+				justify-content: space-between;
+				margin-top: 50px;
+				height: 50px;
+				& a {
+					color: $white;
+					font-size: 36px;
+					font-family: rationale;
+					border-bottom: 1px solid transparent;
+				}
+				& a:hover {
+					border-bottom: 1px solid $cyan;
+					color: $cyan;
+					text-shadow: 0 0 5px $cyan;
+					transition: 350ms;
+					//			animation: glow 1s ease infinite;
+				}
 			}
 		}
-	}
-	
-	@media screen and (max-width:960px) {
-		header {
-			& h1 {
-				font-size: 60px;
+		
+		.active {
+			color: $cyan;
+		}
+		
+		#social {
+			display: flex;
+			justify-content: flex-end;
+			& i {
+				font-size: 30px;
+				padding-left: 20px;
+				color: $white;
 			}
-			& #logo {
-				height: 180px;
+			& i:hover {
+				color: $cyan;
+				transition: 200ms;
+				transform-origin: center;
+				transform: scale(1.1);
 			}
 		}
-	}
-	
-	@media screen and (max-width:640px) {
-		header {
-			& h1 {
-				font-size: 40px;
-			}
-			& #logo {
-				height: 160px;
+		/************************
+	MEDIA QUERIES
+*************************/
+		
+		@media screen and (max-width:1200px) {
+			header {
+				& h1 {
+					font-size: 70px;
+					padding-top: 20px;
+				}
+				& #logo {
+					height: 200px;
+				}
+				& nav {
+					margin: 0px;
+				}
 			}
 		}
-	}
+		
+		@media screen and (max-width:960px) {
+			header {
+				& h1 {
+					font-size: 60px;
+				}
+				& #logo {
+					height: 180px;
+				}
+			}
+		}
+		
+		@media screen and (max-width:640px) {
+			header {
+				& #logo {
+					margin-left: -20px;
+					margin-top: -10px;
+				}
+				& h1 {
+					font-size: 40px;
+				}
+				& #logo {
+					height: 160px;
+				}
+				& #nav-div{
+					padding:0;
+				}
+				& nav {
+					& a {
+						font-size: 26px;
+					}
+				}
+			}
+		}

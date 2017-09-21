@@ -1,27 +1,46 @@
-#about-page{
-	& .frame-round{
-		float:right;
-	margin:0px 40px;
-		padding:20px;
-  -webkit-shape-outside:circle();
-  shape-outside:circle();
+#about-page {
+	& .frame-round {
+		float: right;
+		margin: 0px 40px;
+		padding: 20px;
+		-webkit-shape-outside: circle();
+		shape-outside: circle();
 	}
-	.frame{
-		margin:20px auto;
+	.frame {
+		margin: 20px auto;
 	}
-	& hr{
-			border-top:1px solid grey;
-		margin:20px auto;
+	& hr {
+		border-top: 1px solid grey;
+		margin: 20px auto;
 	}
-	& #prospects-hr{
+	& #prospects-hr {
 		clear: left;
 	}
-	& h2{
-		margin-left:-20px;
+	& h2 {
+		margin-left: -20px;
 	}
-	& h3{
-		padding-left:0;
-		font-family: arial;
-		color:$cyan;
+	& h3 {
+		padding-left: 0;
+		color: $cyan;
+	}
+}
+
+
+/************************
+	MEDIA QUERIES
+*************************/
+
+@media screen and (max-width:960px) {
+	#about-page {
+		& .frame-round {
+			width: 200px;
+			margin-right: 0px;
+		}
+		& h2 {
+			margin-left: 0;
+		}
+		& p:last-child {
+			padding-bottom: 100px;
+		}
 	}
 }
