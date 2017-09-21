@@ -30,7 +30,7 @@ h3,
 h4,
 .h4 {
 	color: $white;
-	font-family: federant;
+	font-family: federant, arial;
 	font-size: 35px;
 	padding: 20px 0px 10px;
 }
@@ -38,7 +38,7 @@ h4,
 h5,
 .h5 {
 	font-size: 28px;
-	font-family: federant;
+	font-family: federant, arial;
 	font-weight: bold;
 	padding: 20px 0px 10px;
 }
@@ -46,7 +46,7 @@ h5,
 h6,
 .h6 {
 	padding-left: 0;
-	font-family: rationale;
+	font-family: rationale, arial;
 	color: $cyan;
 	font-size: 24px;
 	padding: 20px 0px 10px;

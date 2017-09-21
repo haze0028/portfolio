@@ -4,7 +4,7 @@
 		<div id="wrapper">
 			<?php include "inc/header.php"; ?>
 				<div id="content">
-						<p class="pdf"><a href="/pdf/GregHazelton-WebResumeV3.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+					<p class="pdf"><a href="/pdf/GregHazelton-WebResumeV3.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
  View my full resumé</a></p>
 					<div class="container" id="about-page">
 						<h2>Bio</h2>
@@ -16,8 +16,8 @@
 						<p>For as long as I can remember, I've enjoy building things and puzzle solving. I grew up playing video games, sports, slacking off in school, and being an all around mischievous kid. Shortly after high school, though, that all changed.</p>
 						<hr>
 						<h3 class="h6">Education</h3>
-						<p>Although I've always had an interest in computers, in 2013 I decided to try out a career in another interest of mine: construction. In 2014, I graduated with a diploma from the Building Construction Technician course at Algonquin College. I specialized in carpentry, but soon after working in the field, decided to pursue web design instead, and maintain carpentry as a hobby</p>
-						<p>In 2015 I began the Interactive Media Design (IMD) program at Algonquin College, and have thoroughly enjoyed all aspects of the course, especially anything coding related. For my final semester I chose to take the 2 web oriented electives and am hoping to pursue a job in web development upon graduating</p>
+						<p>Although I've always had an interest in computers, in 2013 I decided to try out a career in another interest of mine: construction. In 2014, I graduated with a diploma from the Building Construction Technician course at Algonquin College. I specialized in carpentry, but soon after working in the field, decided to pursue web design instead, and maintain carpentry as a hobby.</p>
+						<p>In 2015 I began the Interactive Media Design (IMD) program at Algonquin College, and have thoroughly enjoyed all aspects of the course, especially anything coding related. For my final semester I chose to take the 2 web oriented electives and am hoping to pursue a job in web development upon graduating.</p>
 						<hr>
 						<h3 class="h6">Work</h3>
 						<p>I have worked more jobs than I care to count, some jobs being much more appealing than others. Nearly all of them have had a strong customer service element. Since 2013, I have been employed as a Zamboni driver for the City of Ottawa. Albeit exciting at times, a large portion of the job consists of cleaning and building maintenance, and has not been the type of job I would like to make my career.</p>
@@ -26,8 +26,8 @@
 						<h3 class="h6">Interests</h3>
 						<div class="row">
 							<div class="col-sm-5">
-							<div class="frame">
-								<img src="images/photo/snowboard.jpg" alt="Greg Hazelton snowboarder" id="snowboarder">
+								<div class="frame">
+									<img src="images/photo/snowboard.jpg" alt="Greg Hazelton snowboarder" id="snowboarder">
 								</div>
 							</div>
 							<div class="col-sm-5">

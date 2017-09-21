@@ -92,7 +92,7 @@ h3,
 h4,
 .h4 {
   color: #F9F9F9;
-  font-family: federant;
+  font-family: federant, arial;
   font-size: 35px;
   padding: 20px 0px 10px;
 }
@@ -100,7 +100,7 @@ h4,
 h5,
 .h5 {
   font-size: 28px;
-  font-family: federant;
+  font-family: federant, arial;
   font-weight: bold;
   padding: 20px 0px 10px;
 }
@@ -108,7 +108,7 @@ h5,
 h6,
 .h6 {
   padding-left: 0;
-  font-family: rationale;
+  font-family: rationale, arial;
   color: #1CBAFF;
   font-size: 24px;
   padding: 20px 0px 10px;
@@ -201,11 +201,10 @@ header nav a:hover {
 *************************/
 @media screen and (max-width: 1200px) {
   header h1 {
-    font-size: 70px;
     padding-top: 20px;
   }
   header #logo {
-    height: 200px;
+    height: 240px;
   }
   header nav {
     margin: 0px;
@@ -213,10 +212,10 @@ header nav a:hover {
 }
 @media screen and (max-width: 960px) {
   header h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
   header #logo {
-    height: 180px;
+    height: 220px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -352,6 +351,30 @@ img {
   min-height: calc(100vh/*viewport*/ - 180px/*margin-top*/ - 190px/*header*/ );
 }
 
+#actions {
+  width: 100%;
+  margin: 10vh auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+#actions a {
+  background: #030303;
+  color: #1CBAFF;
+  border: 1px solid #1CBAFF;
+  padding: 20px 40px;
+  margin: 20px 5vw;
+  font-size: 30px;
+  font-family: monterey;
+  text-decoration: none;
+  cursor: pointer;
+}
+#actions a:hover {
+  background: black;
+  transition: 200ms;
+  text-decoration: none;
+  color: #1CBAFF;
+}
+
 #home-texts {
   text-align: right;
   font-family: federant;
@@ -396,10 +419,14 @@ img {
   animation: slideIn2 6s ease;
 }
 
-		/************************
+/************************
 	MEDIA QUERIES
 *************************/
 @media screen and (max-width: 1200px) {
+  #actions a {
+    padding: 20px;
+  }
+
   #screens #screen1 {
     height: 250px;
   }
@@ -409,6 +436,22 @@ img {
   }
   #screens #screen3 {
     left: 170px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #actions a {
+    margin: 80px 0 0;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: none;
+  }
+  #actions a#action-work {
+    border-left: none;
+  }
+  #actions a#action-contact {
+    border-right: none;
   }
 }
 @media screen and (max-width: 770px) {
