@@ -1,7 +1,7 @@
 #about-page {
 	& .frame-round {
 		float: right;
-		margin: 0px 40px;
+		margin: 20px 40px;
 		padding: 20px;
 		-webkit-shape-outside: circle();
 		shape-outside: circle();
@@ -12,6 +12,7 @@
 	& hr {
 		border-top: 1px solid grey;
 		margin: 20px auto;
+		display:none;
 	}
 	& #prospects-hr {
 		clear: left;
@@ -22,6 +23,7 @@
 	& h3 {
 		padding-left: 0;
 		color: $cyan;
+		clear:left;
 	}
 }
 
