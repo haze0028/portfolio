@@ -2,9 +2,10 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: $smoke;
-	height: 280px;
-	width: 100vw;
+	background-image: url(../images/header-bg.png);
+	background-size: cover;
+	height: 300px;
+	width: 100%;
 	z-index: -10;
 }
 
@@ -40,8 +41,8 @@ header {
 		}
 	}
 	& #logo {
-		height: 220px;
-		width: 220px;
+		height: 200px;
+		width: 200px;
 		margin-right: -50px;
 		padding: 10px;
 		float: left;
@@ -88,6 +89,9 @@ header {
 *************************/
 
 @media screen and (max-width:1200px) {
+	#logo-bg {			
+		height: 280px;
+	}
 	header {
 		& h1 {
 			padding-top: 20px;
@@ -127,18 +131,19 @@ header {
 			margin-top: -10px;
 		}
 		& h1 {
+			padding-top:0px;
 			font-size: 40px;
 		}
 		& #logo {
-			height: 120px;
-			width: 120px;
+			height: 80px;
+			width: 80px;
 		}
 		& #nav-div {
 			padding: 0;
 		}
-		& nav {
+		&.row nav {
 			& a {
-				font-size: 26px;
+				font-size: 30px;
 			}
 		}
 	}

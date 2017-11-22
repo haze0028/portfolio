@@ -137,9 +137,10 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #030303;
-  height: 280px;
-  width: 100vw;
+  background-image: url(../images/header-bg.png);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
   z-index: -10;
 }
 
@@ -159,7 +160,7 @@ header.row #nav-div {
 header.row nav {
   display: flex;
   justify-content: space-around;
-  background-color: #00001a;
+  background-color: #000a1a;
 }
 header.row nav a {
   height: 80px;
@@ -176,8 +177,8 @@ header.row nav a:hover {
   transition: 350ms;
 }
 header #logo {
-  height: 220px;
-  width: 220px;
+  height: 200px;
+  width: 200px;
   margin-right: -50px;
   padding: 10px;
   float: left;
@@ -217,6 +218,10 @@ header a:hover, header a:focus, header a:active {
 	MEDIA QUERIES
 *************************/
 @media screen and (max-width: 1200px) {
+  #logo-bg {
+    height: 280px;
+  }
+
   header h1 {
     padding-top: 20px;
   }
@@ -251,17 +256,18 @@ header a:hover, header a:focus, header a:active {
     margin-top: -10px;
   }
   header h1 {
+    padding-top: 0px;
     font-size: 40px;
   }
   header #logo {
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
   }
   header #nav-div {
     padding: 0;
   }
-  header nav a {
-    font-size: 26px;
+  header.row nav a {
+    font-size: 30px;
   }
 }
 /********************************************

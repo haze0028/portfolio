@@ -12,7 +12,7 @@
 				href="contact.php">Contact</a>
 		</nav>
 	</div>
-	<div class="col-xl-12 col-lg-12">
+	<div class="col-xl-9 offset-xl-1">
 		<a href="home.php">
 
 			<?php include "inc/logo.php"; ?>
