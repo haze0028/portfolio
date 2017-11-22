@@ -6,7 +6,7 @@
 				<div id="content">
 					<div id="contact-page">
 						<div class="deets">
-							<h4>Have a web or graphic design job for me?</h4>
+							<h4>Need a website built?</h4>
 							<p>Feel free to contact me directly</p>
 							<hr>
 						</div>

@@ -8,7 +8,7 @@
 	<meta name="author" content="Greg Hazelton">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Greg Hazelton Portfolio</title>
-	<link rel="icon" href="images/siteLogoV2.png">
+	<link rel="icon" href="images/favicon-logo.png">
 
 	<!--BOOTSTRAP-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">

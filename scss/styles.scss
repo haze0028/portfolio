@@ -27,7 +27,11 @@
 *********************************************/
 
 body {
-	background: linear-gradient(black, #000038);
+	background-image: url(../images/hex1-edit1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+//	background: linear-gradient(black, #000038);
 	font-family: arial;
 	color: $white;
 }

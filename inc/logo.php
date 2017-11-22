@@ -1,3 +1,6 @@
+
+<img src="../images/logoV7.png" alt="Hazelton Online Logo" id="logo">
+<!--
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960.15 1186" id="logo">
 						<defs>
 							<style>
@@ -123,4 +126,4 @@
 								<polygon class="cls-11" points="226.57 225.17 159.55 280.33 159.55 522.4 288.11 636.03 288.11 636.03 351.55 692.09 351.55 776.85 351.55 868.22 453.15 784.6 453.15 411.64 226.57 225.17" />
 							</g>
 						</g>
-					</svg>
+					</svg>-->

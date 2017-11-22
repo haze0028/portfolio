@@ -1,119 +1,145 @@
-		header {
-			text-align: right;
-			height: 190px;
-			padding: 20px;
-			&.row {
-				margin-left: 0;
-				margin-right: 0;
-			}
-			& #logo {
-				height: 250px;
-				margin-right: -50px;
-				padding: 10px;
-				float: left;
-			}
-			& #circuits2 {
-				& polyline,
-				& circle {
-					animation: glogo 2s ease infinite;
-				}
-			}
-			& h1 {
-				padding-top: 30px;
-			}
-			& a:hover,
-			& a:focus,
-			& a:active {
-				text-decoration: none;
-			}
-			& nav {
-				display: flex;
-				justify-content: space-between;
-				margin-top: 50px;
-				height: 50px;
-				& a {
-					color: $white;
-					font-size: 36px;
-					font-family: rationale;
-					border-bottom: 1px solid transparent;
-				}
-				& a:hover {
-					border-bottom: 1px solid $cyan;
-					color: $cyan;
-					text-shadow: 0 0 5px $cyan;
-					transition: 350ms;
-					//			animation: glow 1s ease infinite;
-				}
-			}
+#logo-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $smoke;
+	height: 280px;
+	width: 100vw;
+	z-index: -10;
+}
+
+header {
+	text-align: right;
+	height: 190px;
+	padding: 20px;
+	&.row {
+		margin-left: 0;
+		margin-right: 0;
+		padding:0;
+		& #nav-div{
+			padding:0;
 		}
-		
-		.active {
-			color: $cyan;
-		}
-		
-		#social {
+		& nav {
 			display: flex;
-			justify-content: flex-end;
-			& i {
-				font-size: 30px;
-				padding-left: 20px;
+			justify-content: space-around;
+			background-color: $blue;
+			& a {
+			height:80px;
+				padding-top:20px;
 				color: $white;
+				font-size: 40px;
+				font-family: rationale;
+				border-bottom: 1px solid transparent;
 			}
-			& i:hover {
+			& a:hover {
+				border-bottom: 1px solid $cyan;
 				color: $cyan;
-				transition: 200ms;
-				transform-origin: center;
-				transform: scale(1.1);
+				text-shadow: 0 0 5px $cyan;
+				transition: 350ms; //			animation: glow 1s ease infinite;
 			}
 		}
-		/************************
+	}
+	& #logo {
+		height: 220px;
+		width: 220px;
+		margin-right: -50px;
+		padding: 10px;
+		float: left;
+		z-index: 10;
+	}
+	& #circuits2 {
+		& polyline,
+		& circle {
+			animation: glogo 2s ease infinite;
+		}
+	}
+	& h1 {
+		padding-top: 30px;
+	}
+	& a:hover,
+	& a:focus,
+	& a:active {
+		text-decoration: none;
+	}
+}
+
+.active {
+	color: $cyan;
+}
+
+#social {
+	display: flex;
+	justify-content: flex-end;
+	& i {
+		font-size: 30px;
+		padding-left: 20px;
+		color: $white;
+	}
+	& i:hover {
+		color: $cyan;
+		transition: 200ms;
+		transform-origin: center;
+		transform: scale(1.1);
+	}
+}
+
+/************************
 	MEDIA QUERIES
 *************************/
-		
-		@media screen and (max-width:1200px) {
-			header {
-				& h1 {
-					padding-top: 20px;
-				}
-				& #logo {
-					height: 240px;
-				}
-				& nav {
-					margin: 0px;
-				}
+
+@media screen and (max-width:1200px) {
+	header {
+		& h1 {
+			padding-top: 20px;
+		}
+		& #logo {
+			height: 180px;
+			width: 180px;
+		}
+		& nav {
+			margin: 0px;
+		}
+	}
+}
+
+@media screen and (max-width:960px) {
+	#logo-bg {
+		height: 250px
+	}
+	header {
+		& h1 {
+			font-size: 60px;
+		}
+		& #logo {
+			height: 150px;
+			width: 150px;
+		}
+	}
+}
+
+@media screen and (max-width:640px) {
+	#logo-bg {
+		height: 200px
+	}
+	header {
+		& #logo {
+			margin-left: -20px;
+			margin-top: -10px;
+		}
+		& h1 {
+			font-size: 40px;
+		}
+		& #logo {
+			height: 120px;
+			width: 120px;
+		}
+		& #nav-div {
+			padding: 0;
+		}
+		& nav {
+			& a {
+				font-size: 26px;
 			}
 		}
-		
-		@media screen and (max-width:960px) {
-			header {
-				& h1 {
-					font-size: 80px;
-				}
-				& #logo {
-					height: 220px;
-				}
-			}
-		}
-		
-		@media screen and (max-width:640px) {
-			header {
-				& #logo {
-					margin-left: -20px;
-					margin-top: -10px;
-				}
-				& h1 {
-					font-size: 40px;
-				}
-				& #logo {
-					height: 160px;
-				}
-				& #nav-div {
-					padding: 0;
-				}
-				& nav {
-					& a {
-						font-size: 26px;
-					}
-				}
-			}
-		}
+	}
+}

@@ -103,6 +103,8 @@
 
 @media screen and (max-width:900px) {
 	#actions {
+			position:absolute;
+			bottom:0;
 		& a {
 			margin: 80px 0 0;
 			padding: 20px;

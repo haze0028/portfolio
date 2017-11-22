@@ -133,6 +133,16 @@ ul {
 /********************************************
     HEADER/FOOTER
 *********************************************/
+#logo-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #030303;
+  height: 280px;
+  width: 100vw;
+  z-index: -10;
+}
+
 header {
   text-align: right;
   height: 190px;
@@ -141,12 +151,37 @@ header {
 header.row {
   margin-left: 0;
   margin-right: 0;
+  padding: 0;
+}
+header.row #nav-div {
+  padding: 0;
+}
+header.row nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00001a;
+}
+header.row nav a {
+  height: 80px;
+  padding-top: 20px;
+  color: #F9F9F9;
+  font-size: 40px;
+  font-family: rationale;
+  border-bottom: 1px solid transparent;
+}
+header.row nav a:hover {
+  border-bottom: 1px solid #1CBAFF;
+  color: #1CBAFF;
+  text-shadow: 0 0 5px #1CBAFF;
+  transition: 350ms;
 }
 header #logo {
-  height: 250px;
+  height: 220px;
+  width: 220px;
   margin-right: -50px;
   padding: 10px;
   float: left;
+  z-index: 10;
 }
 header #circuits2 polyline, header #circuits2 circle {
   animation: glogo 2s ease infinite;
@@ -156,24 +191,6 @@ header h1 {
 }
 header a:hover, header a:focus, header a:active {
   text-decoration: none;
-}
-header nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  height: 50px;
-}
-header nav a {
-  color: #F9F9F9;
-  font-size: 36px;
-  font-family: rationale;
-  border-bottom: 1px solid transparent;
-}
-header nav a:hover {
-  border-bottom: 1px solid #1CBAFF;
-  color: #1CBAFF;
-  text-shadow: 0 0 5px #1CBAFF;
-  transition: 350ms;
 }
 
 .active {
@@ -196,7 +213,7 @@ header nav a:hover {
   transform: scale(1.1);
 }
 
-		/************************
+/************************
 	MEDIA QUERIES
 *************************/
 @media screen and (max-width: 1200px) {
@@ -204,21 +221,31 @@ header nav a:hover {
     padding-top: 20px;
   }
   header #logo {
-    height: 240px;
+    height: 180px;
+    width: 180px;
   }
   header nav {
     margin: 0px;
   }
 }
 @media screen and (max-width: 960px) {
+  #logo-bg {
+    height: 250px;
+  }
+
   header h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   header #logo {
-    height: 220px;
+    height: 150px;
+    width: 150px;
   }
 }
 @media screen and (max-width: 640px) {
+  #logo-bg {
+    height: 200px;
+  }
+
   header #logo {
     margin-left: -20px;
     margin-top: -10px;
@@ -227,7 +254,8 @@ header nav a:hover {
     font-size: 40px;
   }
   header #logo {
-    height: 160px;
+    height: 120px;
+    width: 120px;
   }
   header #nav-div {
     padding: 0;
@@ -240,7 +268,10 @@ header nav a:hover {
     GENERAL
 *********************************************/
 body {
-  background: linear-gradient(black, #000038);
+  background-image: url(../images/hex1-edit1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   font-family: arial;
   color: #F9F9F9;
 }
@@ -439,6 +470,10 @@ img {
   }
 }
 @media screen and (max-width: 900px) {
+  #actions {
+    position: absolute;
+    bottom: 0;
+  }
   #actions a {
     margin: 80px 0 0;
     padding: 20px;
