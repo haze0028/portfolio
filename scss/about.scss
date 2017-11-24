@@ -46,3 +46,13 @@
 		}
 	}
 }
+
+
+@media screen and (max-width:640px) {
+	#about-page {
+		& .frame-round {
+			width: 150px;
+			margin: 50px 10px;
+		}	
+	}
+}

@@ -27,11 +27,11 @@
 *********************************************/
 
 body {
-	background-image: url(../images/hex1-edit1.jpg);
+	background-image: url(../images/hex-bg6.png);
+	background-size: contain;
 	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-//	background: linear-gradient(black, #000038);
+	background-repeat: repeat;
+	//	background: linear-gradient(black, #000038);
 	font-family: arial;
 	color: $white;
 }
@@ -49,39 +49,37 @@ img {
 	height: 100%;
 }
 
-
-/********************************************
+@media screen and (max-width:960px) {
+	body {
+		background-size: cover;
+	}
+}
+	/********************************************
     SPLASH
 *********************************************/
+	@import "splash";
 
-@import "splash";
-
-/********************************************
+	/********************************************
     HOME
 *********************************************/
+	@import "home";
 
-@import "home";
-
-/********************************************
+	/********************************************
     ABOUT
 *********************************************/
+	@import "about";
 
-@import "about";
-
-/********************************************
+	/********************************************
     WORK
 *********************************************/
+	@import "work";
 
-@import "work";
-
-/********************************************
+	/********************************************
     WORK
 *********************************************/
+	@import "contact";
 
-@import "contact";
-
-/********************************************
+	/********************************************
     ANIMATIONS
 *********************************************/
-
-@import "anim";
+	@import "anim";
